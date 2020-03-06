@@ -5,8 +5,39 @@
     <link rel="stylesheet" type="text/css" href="css/books.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+
     <title>Library Management System</title>
 </head>
+ <!-- website logo -->
+ <nav class="navbar navbar-expand-lg navbar-dark  ">
+    <a class="navbar-brand website-logo" href="#">
+        <img class="logo-img" src="./images/236_Library Advocacy Logo March 2010 transparent.png" height="60px"
+            width="70px">
+    </a>
+
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- nav bar links -->
+    <div class=" collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="books.html">Books</a></li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a></li>
+            <li class="nav-item">
+                <a class="nav-link" href="wwu.html">Work With Us</a></li>
+            <li class="nav-item">
+                <a class="nav-link" href="membership.html">Membership</a></li>
+        </ul>
+    </div>
+</nav>
+
 <div class="all">
 <div class="genres">
     <ul id="wrapper" type="none"></li>
@@ -27,14 +58,14 @@
                 <table>
                     <tr>
                         <div class="book">
-                            <td><img src="images/Adventures-of-Sherlock-Holmes.jpg"><input type="checkbox" id="delivery"></td>
-                            <td><img src="images/Hobbit.jpg"><input type="checkbox" id="delivery"></td>
-                            <td><img src="images/Brave-New-World.jpg"><input type="checkbox" id="delivery"></td>
-                            <td><img src="images/9781511375610-us-300.jpg"><input type="checkbox" id="delivery"></td>
-                            <td><img src="images/9780735219090-us-300.jpg"><input type="checkbox" id="delivery"></td>
-                            <td><img src="images/9780670026197-us-300.jpg"><input type="checkbox" id="delivery"></td>
-                            <td><img src="images/9780062872302-us-300.jpg"><input type="checkbox" id="delivery"></td>
-                            <td><img src="images/If Tomorrow Comes.jpg"><input type="checkbox" id="delivery"></td>
+                            <td><img src="images/Adventures-of-Sherlock-Holmes.jpg">Adventures of Sherlock<input type="checkbox" id="wasomi/fiction/01"></td>
+                            <td><img src="images/Hobbit.jpg"><input type="checkbox" id="wasomi/fiction/02"></td>
+                            <td><img src="images/Brave-New-World.jpg"><input type="checkbox" id="wasomi/fiction/03"></td>
+                            <td><img src="images/9781511375610-us-300.jpg"><input type="checkbox" id="wasomi/fiction/04"></td>w
+                            <td><img src="images/9780735219090-us-300.jpg"><input type="checkbox" id="wasomi/fiction/05"></td>
+                            <td><img src="images/9780670026197-us-300.jpg"><input type="checkbox" id="wasomi/fiction/06"></td>
+                            <td><img src="images/9780062872302-us-300.jpg"><input type="checkbox" id="wasomi/fiction/07"></td>
+                            <td><img src="images/If Tomorrow Comes.jpg"><input type="checkbox" id="wasomi/fiction/08"></td>
                         </div>
                     </tr>
                 </table>
@@ -64,7 +95,7 @@
                     </tr>
                 </table>
         </div>
-        <input type="checkbox" id="book">BOOKS
+        <input type="checkbox" id="book">BOOK
         <br>
         <input type="checkbox" id="delivery">ORDER
         <br>
@@ -75,7 +106,7 @@
             <div id="detective">DETECTIVE</div>
                 <table>
                     <tr>
-                        <div class="books">
+                        <div class="books" >
                             <td><img src="images/51K2GTPCCNL._SL160_.jpg"><input type="checkbox" id="delivery"></td>
                             <td><img src="images/notting_hill_mystery.jpg"><input type="checkbox" id="delivery"></td>
                             <td><img src="images/412x3zyrx6L._SL250_.jpg"><input type="checkbox" id="delivery"></td>
@@ -88,7 +119,7 @@
                     </tr>
                 </table>
         </div>
-        <input type="checkbox" id="book">BOOKS
+        <input type="checkbox" id="book">BOOK
         <br>
         <input type="checkbox" id="delivery">ORDER
         <br>
@@ -112,7 +143,7 @@
                     </tr>
                 </table>
         </div>
-        <input type="checkbox" id="book">BOOKS
+        <input type="checkbox" id="book">BOOK
         <br>
         <input type="checkbox" id="delivery">ORDER
         <br>
@@ -136,7 +167,7 @@
                     </tr>
                 </table>
         </div>
-        <input type="checkbox" id="book">BOOKS
+        <input type="checkbox" id="book">BOOK
         <br>
         <input type="checkbox" id="delivery">ORDER
         <br>
@@ -148,36 +179,34 @@
                 <table>
                     <tr>
                         <div class="books">
-                            <td><img src="images/ts1.jpg"><input type="checkbox" id="delivery"></td>
-                            <td><img src="images/ts2.jpg"><input type="checkbox" id="delivery"></td>
-                            <td><img src="images/ts3.jpg"><input type="checkbox" id="delivery"></td>
-                            <td><img src="images/ts4.jpg"><input type="checkbox" id="delivery"></td>
-                            <td><img src="images/ts5.jpg"><input type="checkbox" id="delivery"></td>
-                            <td><img src="images/ts6.jpg"><input type="checkbox" id="delivery"></td>
-                            <td><img src="images/ts7.jpg"><input type="checkbox" id="delivery"></td>
+                            <td><img src="images/ts1.jpg"><input type="checkbox" id="wasomi/true-story/01"></td>
+                            <td><img src="images/ts2.jpg"><input type="checkbox" id="wasomi/true-story/02"></td>
+                            <td><img src="images/ts3.jpg"><input type="checkbox" id="wasomi/true-story/03"></td>
+                            <td><img src="images/ts4.jpg"><input type="checkbox" id="wasomi/true-story/04"></td>
+                            <td><img src="images/ts5.jpg"><input type="checkbox" id="wasomi/true-story/05"></td>
+                            <td><img src="images/ts6.jpg"><input type="checkbox" id="wasomi/true-story/06"></td>
+                            <td><img src="images/ts7.jpg"><input type="checkbox" id="wasomi/true-story/07"></td>
                         </div>
                     </tr>
                 </table>
         </div>
-        <input type="checkbox" id="book">BOOKS
+        <input type="checkbox" id="book">BOOK
         <br>
         <input type="checkbox" id="delivery">ORDER
         <br>
         <button type="submit" id="add">ADD</button> 
 </div>  
 
-<table id="checkout">
-    <tbody>
-    <tr>
-        <th>BOOK GENRE</th>
-        <th>BOOK ID</th>
-        <th>BOOK TITLE</th>
-        <th>FEE</th>
-    </tr>a
-    </tbody>
-    
- </table> <br><br><br><br>
+    <b></b><br>
 
+    <button type="submit" id="checkout">CHECKOUT</button> 
+<br><br>
+    BOOKS ORDERED
+<div class="show">
+    <div id="checkout1">Adventures-of-Sherlock-Holmes</div>
+    <div id="checkout2">Fifty Shades of Grey</div>
+    <div id="checkout3">Me Before You</div>
+</div>
 <script>
     function validation(){      
         var name=document.getElementById("#phone").value;
@@ -192,10 +221,26 @@
 
                 PHONE<input type="tel" type="phone"  name="fphone" required>
         
-                DELIVERY ADDRESS<input type="text"   id="address" name="faddress" required>             
+                DELIVERY ADDRESS<input type="text"   id="address" name="faddress" required>   
+                
+                <button type="submit" id="submit">SUBMIT</button>
         
         </form>
     </div>
+        <!-- js -->
+        <script src="js/script.js"></script>
+        <!-- jquery -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <!-- popper js -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <!-- bootstrap min js -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
 </body>
 </div>
 </html>

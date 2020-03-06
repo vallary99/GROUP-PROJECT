@@ -1,4 +1,9 @@
 $(document).ready(function(){
+    $("#checkout").click();
+    $("#checkout").show("#checkout1");
+    $("#checkout").show("#checkout2");
+    $("#cheeckout").show("#checkout3");
+
     var book=function(genre,title,bookIndex){
         this.genre=genre;
         this.title=title;
@@ -23,7 +28,7 @@ $(document).ready(function(){
 
      total+=price;
 
-    var bGenre= $("#size").append(pizzaSize);
+    var bGenre= $("#genre").append(pizzaSize);
     var bTitle= $("#add-order").append();
     var bId= $("#topping option:selected").append.text();
 

@@ -1,3 +1,6 @@
+body{
+    background-color:silver ;
+}
 img{
     margin-left: -50px;
     padding: 30px;
@@ -49,18 +52,43 @@ img{
 }
 
 button{
-    width: 60px;
+    width: 100px;
     height: 30px;
     background-color: black;
     color: white;
 }
 
-#checkout{
-    width: 50%;
-    margin-top: 50px;
-    
+.show{
+    display: none;
 }
 
 #wrapper{
     display: inline-flex;
+}
+/* import */
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+/* navbar */
+ul>li{
+    display: inline-block;
+    text-align: right;
+    text-decoration: none;
+    font-family:'Varela Round' ;
+}
+.nav-item{
+    padding-left: 20px;
+}
+.navbar-nav{
+    cursor: pointer;
+    transition: opacity, 2s In · Cubic;
+    color: black;
+    align-items: center;
+    opacity: 1.5;
+    font-size: 20px;
+}
+.navbar-toggler{
+    align-items: center;
+}
+.navbar-dark .navbar-toggler {
+    color: black;
+    border-color:black;
 }
