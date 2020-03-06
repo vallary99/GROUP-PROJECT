@@ -1,0 +1,55 @@
+/* import */
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+body{
+    font-family: 'Varela Round', ;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+/* home */
+#home{
+    width: auto;
+    height: 800px;
+    background-image: url(../images/books-2596809_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* search */
+.search{
+    top: 50%; 
+    left: 50px; 
+    box-sizing: border-box; 
+    box-sizing: border-box;
+    color: white;
+    background: transparent;
+    margin: 0;
+    width: auto;
+    position: absolute;
+    padding-left: 20%;
+    text-align: center;
+}
+/* navbar */
+ ul>li{
+    display: inline-block;
+    text-align: right;
+    text-decoration: none;
+    font-family:'Varela Round' ;
+}
+.nav-item{
+    padding-left: 20px;
+}
+.navbar-nav{
+    cursor: pointer;
+    transition: opacity, 2s In · Cubic;
+    color: white;
+    align-items: center;
+    opacity: 1.5;
+    font-size: 20px;
+}
+.navbar-toggler{
+    align-items: center;
+}
+.navbar-dark .navbar-toggler {
+    color: white;
+    border-color:white;
+}
