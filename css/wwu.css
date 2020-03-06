@@ -1,0 +1,124 @@
+/* import */
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+#wwu {
+  font-family: 'Varela Round', ;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  background-color: grey;
+}
+.container{
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+  color: white;
+  padding: 5rem;
+}
+.contcontainer {
+  border-radius: 5px;
+  padding: 5%;
+}
+.nav-bar-links{
+  color: #daa520;
+}
+@media screen and (max-width: 600px) {
+.column {
+  width: 100%;
+}
+}
+.nav{
+  color: black;
+}
+
+
+.contact {
+text-align: center;
+color: black;
+padding: 5rem;
+text-transform: capitalize;
+}
+
+.footer {
+text-align: center;
+padding: 2rem;
+}
+
+.socials {
+padding: 2rem;
+}
+.social {
+width: 2rem;
+margin: 1rem;
+}
+
+input[type=submit] {
+background-color: #4CAF50;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #45a049;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  background: transparent;
+  width: 100%;
+  padding: 12px;
+  border: 2px solid black;
+  border-radius: 6px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  color: black;
+}
+
+
+
+.contcontainer {
+  border-radius: 5px;
+  padding: 5%;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+::placeholder {
+  color :black;
+}
+
+* {
+  box-sizing: border-box;
+} */
+
+.textbody {
+background-image: url('../images/backgrounds/wwuback.jpg');
+}
