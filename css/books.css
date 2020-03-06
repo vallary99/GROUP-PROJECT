@@ -61,3 +61,6 @@ button{
     
 }
 
+#wrapper{
+    display: inline-flex;
+}
