@@ -1,0 +1,71 @@
+/* ############ About Us ############## */
+body{
+    background-color:#D6D1D0 ;
+}
+.jumbotron{
+    background-image: url();
+}
+.container{
+    font-family: 'Varela Round';
+}
+h2{
+    text-align: center;
+    font-family:'Varela Round' ;
+}
+h1{
+    text-align: center;
+    font-family:'Varela Round' ;
+}
+.abouts{
+    text-align: center;
+}
+.height-60{
+    min-height: 60vh;
+}
+#contact .card{
+    background: rgba();
+    transition: all 2s ease;
+}
+#contact .card:hover{
+    background: rgba();
+}
+#container .card-header{
+    color: brown;
+}
+#contact .input-group-text{
+    background: violet;
+    border-color: violet;
+    color: #242424;  
+}
+#contact .card input{
+    color: #660066;
+}
+#contact .card intput::placeholder{
+    color: #660066;
+}
+.contact-btn{
+    color:  violet;
+    border-color: violet;
+    background: transparent;
+    transition: all 2s ease-in-out;
+    font-family:'Varela Round' ;
+}
+.contact-btn:hover{
+    background: #c9c1ac;
+    color: violet;
+    border-color: #c9c1ac;
+}
+input .placeholder{
+    font-family:'Varela Round' ;
+    
+}
+ 
+.card>img{
+    height: 400PX;
+    widows: 300px;
+    
+}
+#image{
+    height: 400px;
+    widows: 450px;
+}
