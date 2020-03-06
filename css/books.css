@@ -1,0 +1,63 @@
+img{
+    margin-left: -50px;
+    padding: 30px;
+    height: 250px;
+    width: 200px;
+}
+
+.genre, a{
+    padding-left: 40px;
+}
+#fiction{
+    font-size: 40px;
+    text-align: center;
+}
+
+#romance{
+    font-size: 40px;
+    text-align: center;
+}
+
+#detective{
+    font-size: 40px;
+    text-align: center;
+}
+
+#mystery{
+    font-size: 40px;
+    text-align: center;
+}
+
+#dilemma{
+    font-size: 40px;
+    text-align: center;
+}
+
+#true-story{
+    font-size: 40px;
+    text-align: center;
+}
+
+#comics{
+    font-size: 40px;
+    text-align: center;
+}
+
+.button{
+    font-size: 20px;
+    width: 30px;
+}
+
+button{
+    width: 60px;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+
+#checkout{
+    width: 50%;
+    margin-top: 50px;
+    
+}
+
